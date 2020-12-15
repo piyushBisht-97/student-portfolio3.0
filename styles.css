@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
+:root {
+  --primary-color: #ffae48;
+  --secondary-color: #e5e7eb;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0px;
+}
+
+.container {
+  padding: 1rem 1rem;
+}
+.container-center {
+  text-align: center;
+  padding: 0rem 5rem;
+  margin: auto;
+  padding: 2rem;
+}
+.link-primary {
+  border-radius: 0.5rem;
+  padding: 0rem 1rem;
+  color: white;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-secondary {
+  padding: 0rem 2rem;
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline-item {
+  display: inline;
+  padding: 0rem 1rem;
+  color: whitesmoke;
+}
+.project-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin: 3rem 3rem;
+}
+.navigation {
+  background-color: var(--primary-color);
+  color: aliceblue;
+  border-bottom-left-radius: 1rem;
+  padding: 1rem 0rem;
+  margin-bottom: 1rem;
+}
+.navigation a {
+  color: whitesmoke;
+}
+.nav-font {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding: 0rem 1rem;
+}
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  color: purple;
+  padding-top: 1rem;
+  text-align: center;
+
+  text-size-adjust: 2rem;
+}
+.section h1 p {
+  text-align: center;
+  padding: 1rem 0rem;
+  margin: 1rem 1rem;
+}
+.ow {
+  background-color: var(--secondary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+
+  margin: 1rem 1rem;
+}
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: whitesmoke;
+  border-top-right-radius: 2rem;
+}
+.footer a {
+  color: whitesmoke;
+}
+.footer ul {
+  padding: inline start 0px;
+}
+.footer-header {
+  font-weight: bold;
+  font-size: large;
+}
