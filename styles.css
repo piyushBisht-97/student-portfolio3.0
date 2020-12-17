@@ -59,10 +59,13 @@ body {
 .navigation a {
   color: whitesmoke;
 }
-.nav-font {
+.navigation .nav-brand {
   font-weight: bolder;
   font-size: 1.1rem;
   padding: 0rem 1rem;
+}
+.navigation .link-active {
+  font-weight: bold;
 }
 .hero {
   padding: 2rem;
@@ -102,7 +105,7 @@ body {
   color: whitesmoke;
 }
 .footer ul {
-  padding: inline start 0px;
+  padding-inline-start: 0px;
 }
 .footer-header {
   font-weight: bold;
